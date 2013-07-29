@@ -4,42 +4,39 @@ sakebu models sketch
 
 dictation
 ---------
-* patient_name:string
-* patient_dob:date
-* patient_nhs_number:string
+* forename:string
+* surname:string
+* dob:date
+* nhs_number:string
+* other_identifier:string
 * urgency:string
 * notes:text
 * dictated_at:datetime
 * completed_at:datetime
-* dictator_id:integer (foreign key)
-* typing_pool_id:string (foreign key)
+* user_id:integer (foreign key)
+* group_id:string (foreign key)
 * dictation_path (path to the sound file)
 
-belongs_to: dictator
-belongs_to: typing_pool
+belongs_to: user
+belongs_to: group
 
 
-dictator
---------
-* forename
-* surname
-* user_id
-* password
-* contact details for queries
-* ?language (trying to imagine the universal use case...)
-* ?location
+user
+----
+* forename:string
+* surname:string
+* password:string
+* email:string
+* user_group:string
 
 has_many: :dictations
 
 
-typing_pool
------------
+group
+-----
+* group_name:string
+* user_ids:integer (foreign keys)
 
 has_many: :dictations
-has_many: :typists
+has_many: :users
 
-
-typist
-------
-
-belongs_to: :typing_pool
