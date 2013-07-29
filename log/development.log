@@ -16,3 +16,9 @@ Connecting to database specified by database.yml
 Migrating to CreateDictations (20130729120241)
   [1m[35m (0.2ms)[0m  select sqlite_version(*)
   [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.4.57.129 at 2013-07-29 10:41:31 -0400
+Served asset /rails.png - 200 OK (70ms)
