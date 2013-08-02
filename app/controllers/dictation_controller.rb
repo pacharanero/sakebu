@@ -6,6 +6,7 @@ class DictationController < ApplicationController
   end
 
   def view
+    @dictations = current_user.dictations.order(:date)
   end
 
   def amend

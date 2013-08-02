@@ -405,3 +405,572 @@ Migrating to DeviseCreateUsers (20130802164743)
   [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130802164743')[0m
   [1m[35m (52.3ms)[0m  commit transaction
   [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.4.57.129 at 2013-08-02 13:15:59 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (105.2ms)
+Compiled dictation.css  (17ms)  (pid 12074)
+Compiled application.css  (304ms)  (pid 12074)
+Compiled dictation.js  (705ms)  (pid 12074)
+Compiled application.js  (796ms)  (pid 12074)
+Completed 200 OK in 1873ms (Views: 1872.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.4.57.129 at 2013-08-02 13:16:01 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/dictation.css?body=1" for 127.4.57.129 at 2013-08-02 13:16:02 -0400
+Served asset /dictation.css - 200 OK (2ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.4.57.129 at 2013-08-02 13:16:02 -0400
+Served asset /pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.4.57.129 at 2013-08-02 13:16:02 -0400
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.57.129 at 2013-08-02 13:16:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/dictation.js?body=1" for 127.4.57.129 at 2013-08-02 13:16:02 -0400
+Served asset /dictation.js - 200 OK (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.4.57.129 at 2013-08-02 13:16:02 -0400
+Served asset /pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.4.57.129 at 2013-08-02 13:16:02 -0400
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/user/" for 127.4.57.129 at 2013-08-02 13:16:08 -0400
+
+ActionController::RoutingError (No route matches [GET] "/user"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/login" for 127.4.57.129 at 2013-08-02 13:16:15 -0400
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/dictation/view" for 127.4.57.129 at 2013-08-02 13:16:43 -0400
+Processing by DictationController#view as HTML
+  Rendered dictation/view.html.erb within layouts/application (121.4ms)
+Completed 500 Internal Server Error in 196ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    3: <hr/>
+    4: 
+    5: <ul>
+    6:     <% @dictations.each do |dictation| %>
+    7: 		<li><%= dictation.dictated_at.to_s(:short) %> - <%= dictation.surname %>
+    8: 	<%end%>
+    9: </ul>
+  app/views/dictation/view.html.erb:6:in `_app_views_dictation_view_html_erb__749057517684533575_70307508990800'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (84.8ms)
+
+
+Started GET "/dictation/view" for 127.4.57.129 at 2013-08-02 13:18:20 -0400
+Processing by DictationController#view as HTML
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `dictations' for nil:NilClass):
+  app/controllers/dictation_controller.rb:9:in `view'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (106.7ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (192.6ms)
+
+
+Started GET "/dictation/view" for 127.4.57.129 at 2013-08-02 13:22:55 -0400
+Processing by DictationController#view as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `dictations' for nil:NilClass):
+  app/controllers/dictation_controller.rb:9:in `view'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.1ms)
+
+
+Started GET "/" for 127.4.57.129 at 2013-08-02 13:22:59 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.4.57.129 at 2013-08-02 13:22:59 -0400
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dictation.css?body=1" for 127.4.57.129 at 2013-08-02 13:22:59 -0400
+Served asset /dictation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.4.57.129 at 2013-08-02 13:22:59 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.4.57.129 at 2013-08-02 13:23:00 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.57.129 at 2013-08-02 13:23:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dictation.js?body=1" for 127.4.57.129 at 2013-08-02 13:23:00 -0400
+Served asset /dictation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.4.57.129 at 2013-08-02 13:23:00 -0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.4.57.129 at 2013-08-02 13:23:00 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/user/sign_up" for 127.4.57.129 at 2013-08-02 13:23:03 -0400
+
+ActionController::RoutingError (No route matches [GET] "/user/sign_up"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/user/sign_up" for 127.4.57.129 at 2013-08-02 13:23:58 -0400
+
+ActionController::RoutingError (No route matches [GET] "/user/sign_up"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/user/sign_up" for 127.4.57.129 at 2013-08-02 13:24:01 -0400
+
+ActionController::RoutingError (No route matches [GET] "/user/sign_up"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/users/sign_up" for 127.4.57.129 at 2013-08-02 13:24:06 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/devise-3.0.0/app/views/devise/shared/_links.erb (2.1ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/devise-3.0.0/app/views/devise/registrations/new.html.erb within layouts/application (94.0ms)
+Completed 200 OK in 870ms (Views: 375.8ms | ActiveRecord: 79.6ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.4.57.129 at 2013-08-02 13:24:08 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.4.57.129 at 2013-08-02 13:24:08 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dictation.css?body=1" for 127.4.57.129 at 2013-08-02 13:24:08 -0400
+Served asset /dictation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.4.57.129 at 2013-08-02 13:24:08 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.57.129 at 2013-08-02 13:24:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dictation.js?body=1" for 127.4.57.129 at 2013-08-02 13:24:08 -0400
+Served asset /dictation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.4.57.129 at 2013-08-02 13:24:08 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.4.57.129 at 2013-08-02 13:24:08 -0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/users" for 127.4.57.129 at 2013-08-02 13:24:22 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jALAirvhLJBAurp/2wXtlDSfGXvTb3NGU7SBMsYdlhM=", "user"=>{"email"=>"marcusbaw@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+Completed 500 Internal Server Error in 20ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: email, password, password_confirmation):
+  activemodel (3.2.13) lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+  activemodel (3.2.13) lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+  activemodel (3.2.13) lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+  activemodel (3.2.13) lib/active_model/mass_assignment_security.rb:230:in `sanitize_for_mass_assignment'
+  activerecord (3.2.13) lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+  activerecord (3.2.13) lib/active_record/base.rb:498:in `initialize'
+  devise (3.0.0) lib/devise/models/registerable.rb:20:in `new'
+  devise (3.0.0) lib/devise/models/registerable.rb:20:in `new_with_session'
+  devise (3.0.0) app/controllers/devise/registrations_controller.rb:86:in `build_resource'
+  devise (3.0.0) app/controllers/devise/registrations_controller.rb:13:in `create'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:436:in `_run__3056306839337563437__process_action__4295029192805112581__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2124955452294867052__call__2511880825797176646__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (89.4ms)
+
+
+Started POST "/users" for 127.4.57.129 at 2013-08-02 13:24:55 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jALAirvhLJBAurp/2wXtlDSfGXvTb3NGU7SBMsYdlhM=", "user"=>{"email"=>"marcusbaw@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: email, password, password_confirmation):
+  activemodel (3.2.13) lib/active_model/mass_assignment_security/sanitizer.rb:48:in `process_removed_attributes'
+  activemodel (3.2.13) lib/active_model/mass_assignment_security/sanitizer.rb:20:in `debug_protected_attribute_removal'
+  activemodel (3.2.13) lib/active_model/mass_assignment_security/sanitizer.rb:12:in `sanitize'
+  activemodel (3.2.13) lib/active_model/mass_assignment_security.rb:230:in `sanitize_for_mass_assignment'
+  activerecord (3.2.13) lib/active_record/attribute_assignment.rb:75:in `assign_attributes'
+  activerecord (3.2.13) lib/active_record/base.rb:498:in `initialize'
+  devise (3.0.0) lib/devise/models/registerable.rb:20:in `new'
+  devise (3.0.0) lib/devise/models/registerable.rb:20:in `new_with_session'
+  devise (3.0.0) app/controllers/devise/registrations_controller.rb:86:in `build_resource'
+  devise (3.0.0) app/controllers/devise/registrations_controller.rb:13:in `create'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:436:in `_run__3056306839337563437__process_action__4295029192805112581__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/mapper.rb:42:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2124955452294867052__call__2511880825797176646__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:138:in `service'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/httpserver.rb:94:in `run'
+  /opt/rh/ruby193/root/usr/share/ruby/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (104.8ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /var/lib/stickshift/51e9b26f4382ec35e20003e7/app-root/data/lib/ruby/gems/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (190.8ms)
+
+
+Started POST "/users" for 127.4.57.129 at 2013-08-02 13:26:45 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jALAirvhLJBAurp/2wXtlDSfGXvTb3NGU7SBMsYdlhM=", "user"=>{"email"=>"marcusbaw@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'marcusbaw@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[36mSQL (13.3ms)[0m  [1mINSERT INTO "users" ("created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "forename", "last_sign_in_at", "last_sign_in_ip", "password", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "surname", "updated_at", "user_group") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Fri, 02 Aug 2013 17:26:45 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "marcusbaw@gmail.com"], ["encrypted_password", "$2a$10$hdisXw7218uuNiSP9FVhOuKQLzLdfmkepn2MSUnqdbtR6S7.0vKOS"], ["forename", nil], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["password", nil], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["surname", nil], ["updated_at", Fri, 02 Aug 2013 17:26:45 UTC +00:00], ["user_group", nil]]
+  [1m[35m (18.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.9ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2013-08-02 17:26:46.020175', "current_sign_in_at" = '2013-08-02 17:26:46.020175', "last_sign_in_ip" = '107.23.241.85', "current_sign_in_ip" = '107.23.241.85', "sign_in_count" = 1, "updated_at" = '2013-08-02 17:26:46.021741' WHERE "users"."id" = 1
+  [1m[36m (13.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://project-livec931122524ab.rhcloud.com/
+Completed 302 Found in 900ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.4.57.129 at 2013-08-02 13:26:46 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 167ms (Views: 165.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users" for 127.4.57.129 at 2013-08-02 13:26:53 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jALAirvhLJBAurp/2wXtlDSfGXvTb3NGU7SBMsYdlhM=", "user"=>{"email"=>"marcusbaw@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Redirected to http://project-livec931122524ab.rhcloud.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.4.57.129 at 2013-08-02 13:26:54 -0400
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.4.57.129 at 2013-08-02 13:26:54 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dictation.css?body=1" for 127.4.57.129 at 2013-08-02 13:26:54 -0400
+Served asset /dictation.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.css?body=1" for 127.4.57.129 at 2013-08-02 13:26:54 -0400
+Served asset /pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.4.57.129 at 2013-08-02 13:26:55 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.4.57.129 at 2013-08-02 13:26:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dictation.js?body=1" for 127.4.57.129 at 2013-08-02 13:26:55 -0400
+Served asset /dictation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pages.js?body=1" for 127.4.57.129 at 2013-08-02 13:26:55 -0400
+Served asset /pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.4.57.129 at 2013-08-02 13:26:55 -0400
+Served asset /application.js - 304 Not Modified (2ms)
