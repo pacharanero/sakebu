@@ -1,4 +1,27 @@
 Sakebu::Application.routes.draw do
+  
+  devise_for :users
+
+  get "dictation/add"
+
+  get "dictation/delete"
+
+  get "dictation/view"
+
+  get "dictation/amend"
+
+  get 'home', to: 'pages#home'
+  
+  get 'about', to: 'pages#about'
+
+  get 'contact', to: 'pages#contact'
+  
+  get "pages/about"
+
+  get "pages/contact"
+
+  get "pages/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +71,7 @@ Sakebu::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'welcome#index'
+  root :to => 'pages#home'
 
   # See how all your routes lay out with "rake routes"
 

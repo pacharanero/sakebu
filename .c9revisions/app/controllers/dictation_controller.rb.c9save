@@ -1,0 +1,1 @@
+{"ts":1375461630121,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class DictationController < ApplicationController\n  def add\n  end\n\n  def delete\n  end\n\n  def view\n  end\n\n  def amend\n  end\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":127}]],"length":127}
