@@ -1,5 +1,6 @@
 class DictationController < ApplicationController
   def add
+    @dictation = Dictation.new
   end
 
   def delete
@@ -11,4 +12,8 @@ class DictationController < ApplicationController
 
   def amend
   end
+  
+  def show
+    @dictations = Dictation.all
+  end 
 end

@@ -1,6 +1,8 @@
 Sakebu::Application.routes.draw do
   
   devise_for :users
+  
+  resources :dictation
 
   get "dictation/add"
 
