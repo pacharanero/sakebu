@@ -43,3 +43,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+#Zurb Foundation framework
+gem 'foundation-rails'

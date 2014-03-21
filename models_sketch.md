@@ -2,7 +2,7 @@ sakebu models sketch
 ====================
 
 
-dictation
+Dictation
 ---------
 * forename:string
 * surname:string
@@ -21,7 +21,7 @@ belongs_to: user
 belongs_to: group
 
 
-user
+User
 ----
 * forename:string
 * surname:string
@@ -32,7 +32,7 @@ user
 has_many: :dictations
 
 
-group
+Group
 -----
 * group_name:string
 * user_ids:integer (foreign keys)
