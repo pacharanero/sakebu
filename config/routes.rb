@@ -2,13 +2,11 @@ Sakebu::Application.routes.draw do
   
   devise_for :users
   
-  resources :dictation
-
   get "dictation/add"
 
   get "dictation/delete"
 
-  get "dictation/view"
+  get "dictation/view", to: 'dictation#view'
 
   get "dictation/amend"
 
