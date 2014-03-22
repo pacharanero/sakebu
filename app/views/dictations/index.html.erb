@@ -1,0 +1,33 @@
+<h1>Listing dictations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Forename</th>
+      <th>Surname</th>
+      <th>Nhs number</th>
+      <th>Path to audio</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @dictations.each do |dictation| %>
+      <tr>
+        <td><%= dictation.forename %></td>
+        <td><%= dictation.surname %></td>
+        <td><%= dictation.nhs_number %></td>
+        <td><%= dictation.path_to_audio %></td>
+        <td><%= link_to 'Show', dictation %></td>
+        <td><%= link_to 'Edit', edit_dictation_path(dictation) %></td>
+        <td><%= link_to 'Destroy', dictation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Dictation', new_dictation_path %>

@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Forename:</strong>
+  <%= @dictation.forename %>
+</p>
+
+<p>
+  <strong>Surname:</strong>
+  <%= @dictation.surname %>
+</p>
+
+<p>
+  <strong>Nhs number:</strong>
+  <%= @dictation.nhs_number %>
+</p>
+
+<p>
+  <strong>Path to audio:</strong>
+  <%= @dictation.path_to_audio %>
+</p>
+
+<%= link_to 'Edit', edit_dictation_path(@dictation) %> |
+<%= link_to 'Back', dictations_path %>
