@@ -1,9 +1,0 @@
-<h1>My Dictations</h1>
-
-<hr/>
-
-<ul>
-    <% @dictations.each do |dictation| %>
-		<li><%= dictation.dictated_at.to_s(:short) %> - <%= dictation.surname %>
-	<%end%>
-</ul>
